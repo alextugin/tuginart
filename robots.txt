@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /css
+Disallow: /assets
+Disallow: /fonts
+Disallow: /js
+Disallow: /htaccess
+Host: https://tugin.art

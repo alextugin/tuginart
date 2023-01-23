@@ -1,7 +1,7 @@
 var menu = ['Нижегородметалл', 'Фитнес-Чайка', 'Репетитор английского', 'Загородный отель Чайка']
 
 var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1.5,
+      slidesPerView: 1.1,
       centeredSlides: true,
       spaceBetween: 20,
       loop: true,
@@ -17,4 +17,10 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      breakpoints: {
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 1.5,
+        }
+    }
     });

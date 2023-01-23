@@ -126,7 +126,6 @@ a.telegram {
     text-align: center;
     border-radius: 8px;
     padding: 10px 15px;
-    margin-top: 60px;
     background: #1c93e3;
     text-transform: uppercase;
     color: #fff !important;
@@ -149,7 +148,7 @@ a.telegram img {
     color: #666;
     max-width: 900px;
     margin: auto;
-    padding: 50px 0;
+    padding: 100px 0 40px 0;
 }
 
 

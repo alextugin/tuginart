@@ -9,6 +9,7 @@
     <link rel="icon" href="favicon.svg">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -33,21 +34,69 @@
         <div><img src="https://mc.yandex.ru/watch/90894133" style="position:absolute; left:-9999px;" alt="" /></div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
+
+
     <div class="site">
-        <div class="wrap">
-            <div class="container">
-                <div class="block">
+            <header class="header">
+                <div class="logo">
+                    <span>TUGIN.ART</span>
+                </div>
+            </header>
+
+            <div class="intro-hero">
+                <div class="wrap block">
                     <div class="block-inner">
-                        <h1 class="title">TUGIN.ART</h1>
-                        <p class="description">Разработка сайтов. Дизайн и вёрстка.</p>
-                        <div class="button">
-                            <a href="https://t.me/tuginart">Telegram</a>
-                        </div>
+                        <h1 class="title">Дизайн. Верстка.<br>Разработка сайтов.</h1>
+                        <p class="typography-subhead">Мы объединяем креативность, технологичность и профессионализм, <span class="highlight">чтобы создавать сайты</span>, которые отличаются эффективным дизайном, интуитивным интерфейсом и функциональностью.</p> 
                     </div>
                 </div>
             </div>
-        </div>
+
+            <!-- Swiper -->
+            <div #swiperRef="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <a href="https://nizhmet.ru" class="swiper-slide">
+                        <span class="gallery-item-label">nizhmet.ru</span>
+                        <img src="/img/nizhmet.png" alt="">
+                    </a>
+                    <a href="https://fitness-chayka.ru" class="swiper-slide">
+                        <span class="gallery-item-label">fitness-chayka.ru</span>
+                        <img src="/img/fitness-chayka.png" alt="">
+                    </a>
+                    <a href="https://veramaltseva.com" class="swiper-slide">
+                        <span class="gallery-item-label">veramaltseva.com</span>
+                        <img src="/img/veramaltseva.png" alt="">
+                    </a>
+                    <a href="https://chayka-hotel.ru" class="swiper-slide">
+                        <span class="gallery-item-label">chayka-hotel.ru</span>
+                        <img src="/img/chayka-hotel.png" alt="">
+                    </a>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="wrap gallery-content">Лёгкий способ начать с нами сотрудничать - связаться в telegram,<br>рассказать о себе или своем бизнесе, заключить договор.</div>
+
+            <!-- <div class="container">
+                <div class="wrap tile">
+                    <div class="tile-content">
+                        <p class="">Наша студия разработки сайтов - это гарантия качества, индивидуального подхода и высокой эффективности для вашего бизнеса</p>
+                        <img class="tile-image" src="/img/spatial_audio__dipr8iji32uu_small_2x.jpg" alt="">
+                    </div>
+                </div>
+            </div> -->
+
+            <a class="telegram" href="https://t.me/tuginart"><img src="/img/telegram.svg">Telegram</a>
+
+            <footer class="footer">
+            © 2023 Tugin Art Studio
+            </footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

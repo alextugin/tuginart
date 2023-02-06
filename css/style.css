@@ -116,7 +116,7 @@ body {
     text-decoration: none;
 } */
 
-a.telegram {
+.btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,16 +124,29 @@ a.telegram {
     line-height: 20px;
     font-weight: 500;
     text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
     border-radius: 8px;
     padding: 10px 15px;
-    background: #1c93e3;
-    text-transform: uppercase;
-    color: #fff !important;
-    text-decoration: none;
     max-width: 200px;
     margin: auto;
+    margin-top: 50px;
+}
 
-    margin-top: 100px;
+.btn-stroke {
+    border: #fff 2px solid;
+    color: #fff;
+}
+
+.btn-stroke:hover {
+    border: #fff 2px solid;
+    background: #fff;
+    color: #000;
+}
+
+a.telegram {
+    background: #1c93e3;
+    color: #fff !important;
 }
 
 a.telegram img {
